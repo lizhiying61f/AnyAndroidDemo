@@ -15,6 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".about_layout.AboutLayoutActivity">
+        </activity>
+        <activity android:name=".AboutKeyboardActivity">
+        </activity>
+        <activity
+            android:name=".about_layout.about_keyboard.LayoutUpActivity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".performance.PerformanceActivity">
+        </activity>
+        <activity android:name=".performance.LayoutOptimizeActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_layout_up"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context="com.lzhiy.anyandroiddemo.about_layout.about_keyboard.LayoutUpActivity">
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+    android:hint="edit1"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+              android:hint="edit2"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+              android:hint="edit3"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="60dp"
+    android:text="submit" android:id="@+id/submit"/>
+</LinearLayout>
