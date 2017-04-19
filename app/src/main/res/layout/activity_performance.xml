@@ -9,4 +9,6 @@
     tools:context="com.lzhiy.anyandroiddemo.performance.PerformanceActivity">
     <Button android:id="@+id/layout_optimize" android:layout_width="match_parent"
             android:layout_height="wrap_content" android:text="布局优化"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/fragment_performance" android:text="多个Fragment性能优化"/>
 </LinearLayout>

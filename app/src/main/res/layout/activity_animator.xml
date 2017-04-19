@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_animator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lzhiy.anyandroiddemo.animator.AnimatorActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="300dp"
+    android:orientation="vertical" android:id="@+id/tv_container" android:background="@color/colorAccent">
+        <TextView android:id="@+id/animator_simple" android:layout_width="match_parent"
+                  android:background="@color/colorPrimary"
+                  android:layout_height="wrap_content"
+                  android:gravity="center" android:visibility="gone"
+                  android:padding="10dp" android:text="显示动画效果" android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="透明"
+                    android:onClick="alphademo"/>
+            <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="旋转"
+                    android:onClick="rotation"/>
+            <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="平移"
+                    android:onClick="translation"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

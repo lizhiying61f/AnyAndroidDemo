@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.lzhiy.anyandroiddemo.R;
 
+/**
+ * 布局优化
+ */
 public class LayoutOptimizeActivity extends AppCompatActivity {
 
     @Override

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lzhiy.anyandroiddemo.AboutKeyboardActivity">
+    tools:context="com.lzhiy.anyandroiddemo.about_layout.about_keyboard.AboutKeyboardActivity">
 
     <Button android:layout_width="match_parent" android:layout_height="wrap_content"
     android:id="@+id/layout_up" android:text="键盘弹出布局上移"/>

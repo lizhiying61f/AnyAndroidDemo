@@ -9,6 +9,9 @@ import com.lzhiy.anyandroiddemo.R;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * 性能优化
+ */
 public class PerformanceActivity extends AppCompatActivity {
 
     @Override
