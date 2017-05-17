@@ -44,6 +44,8 @@
         <!-- </receiver> -->
         <activity android:name=".animator.AnimatorActivity">
         </activity>
+        <activity android:name=".performance.fragment_performance.FragmentPerformanceActivity">
+        </activity>
     </application>
 
 </manifest>

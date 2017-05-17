@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.lzhiy.anyandroiddemo.R;
+import com.lzhiy.anyandroiddemo.performance.fragment_performance.FragmentPerformanceActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -25,4 +26,10 @@ public class PerformanceActivity extends AppCompatActivity {
     public void toLayoutOptimizeActivity(){
         startActivity(new Intent(PerformanceActivity.this,LayoutOptimizeActivity.class));
     }
+
+    @OnClick(R.id.fragment_performance)
+    public void toFragmentPerformanceActivity(){
+        startActivity(new Intent(PerformanceActivity.this, FragmentPerformanceActivity.class));
+    }
+
 }
